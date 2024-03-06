@@ -1,0 +1,76 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #4F0014;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: red;
+}
+
+.navigation a:hover, .navigation ul a:hover{
+    background-color: red;
+    color: #86,3,25;
+    text-decoration: none;                               /*удаление нижнего подчеркивания при наведении*/
+    transform: scale(1.2);                               /*увеличение текста при наведении на 20%*/
+}
+
+
+body {
+    background: #BC5D58;                /*фон окна c контентом*/
+    margin: 1                           /*убираем допуски со всех сторон*/
+}
+
+header {
+    float: top;                         /*расположение блока шапки, сверху*/
+    background: #560319;                /*фон шапки*/
+    height: 80px;                      /*высота данного блока будет динамической и 5% экрана*/
+    color: #C10020;                        /*весь текст внутри шапки будет белый (#fff)*/
+}
+
+header .logo{                           /*для блока header и к тегу span в котором есть class=logo*/
+    font-size: 25px;                    /*размер шрифта 25px*/
+    margin-left: 10px;                  /*отступ с левой стороны 10px*/
+    font-weight: bold;                  /*жирность шрифта*/
+    position: relative;                 /*смещаем логотип (HIS AIRINESS)*/
+    top: 25px;                          /*опускаем его вниз на 10px*/
+}
+
+h1 {                                    /*для заголовка h1*/
+    text-align: center;                 /*выравнивание текста по центру*/
+    color: #86,3,25 ;                      /*цет текста (#fc0303) - красный*/
+}
+
+.about p{                            /*для тега р - класса about_me - страницы about_me*/
+    color: Black and red;                       /*цвет (#fff)-белый*/
+    font-size: 1.5em;                   /*размер шрифта 1.1em*/
+    padding-left: 20px;                 /*отступ текста слева 20px*/
+}
+
+.index p {                            /*для тега a класса content*/
+    color: #65,34,39 ;                        /*цвет (65,34,39)-белый*/
+    font-size: 1.4em;                   /*размер шрифта*/
+    padding-left: 20px;                 /*отступ текста слева 20px*/
+}
+
+.contacts p b {                         /*для тега р b- класса feedback - страницы feedback*/
+    color: #FF2400             /*цет текста #f56942*/
+
+}
+
+
+.contacts p {
+    color: #65,34,39 ;                        /*цвет (65,34,39)-белый*/
+    font-size: 1.5em;                   /*размер шрифта*/
+    padding-left: 30px;
+}
